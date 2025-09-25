@@ -1,2 +1,1 @@
-# 01-ts-basics
-ts-homework
+# 03-react-movies
