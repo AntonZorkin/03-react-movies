@@ -9,8 +9,6 @@ import { toast } from "react-hot-toast";
 
 const App = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
-  console.log(movies);               //!!!!!!!!!!!!!!!!
-  
   const [isError, setIsError] = useState(false);
   const handleSubmit = async (query: string) => {
     try{
